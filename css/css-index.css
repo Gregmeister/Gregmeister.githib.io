@@ -1,4 +1,22 @@
+body {
+	background-color: grey;
+}
+
+nav {
+	background-color: #28784D;
+	margin: .25em;
+	padding: .25em;
+}
+
 nav li {
 	display: inline;
 	margin-right: 1em;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	color: white;
 }
