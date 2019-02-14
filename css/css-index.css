@@ -168,6 +168,9 @@ nav a:hover {
   }
 }
 
+div h2 {
+  color: white;
+}
 
 .main {
   padding: 1em;
