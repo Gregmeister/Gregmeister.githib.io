@@ -168,9 +168,10 @@ nav a:hover {
   }
 }
 
+
 .main {
   padding: 1em;
-  margin: 1em;
+  color: white;
 }
 
 .main ul {
@@ -179,4 +180,8 @@ nav a:hover {
 
 .main li {
   margin-bottom: 1em;
+}
+
+.main li a {
+  color: white;
 }
