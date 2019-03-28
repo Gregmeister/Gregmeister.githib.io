@@ -1,37 +1,89 @@
 <!DOCTYPE html>
-<html>
-        <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-            <title>Home - Greg Schneider</title>
-            <meta name="description" content="Home page for Greg Schneider's Geol490R project website">
-            <link rel="stylesheet" href="css/css-index.css">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Schneider 490R</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
 
-        </head>
-        <body>
-            <header>
+  <nav>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="catalogPage/catalog.html">gis at byu-i</a></li>
+      <li><a href="galleryPage/gallery.html">gallery</a></li>
+      <li><a href="documents.html">documents</a></li>
+    </ul>
+  </nav>
 
-                <img src="images/logo.png" alt="logo" class="logo">
-                <input type="checkbox" id="nav-toggle" class="nav-toggle">
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="catalogPage/catalog.html">GIS at BYU-I</a></li>
-                        <li><a href="galleryPage/gallery.html">Gallery</a></li>
-                        <li><a href="documents.html">Documents</a></li>
-                    </ul>
-                </nav>
-                <label for="nav-toggle" class="nav-toggle-label">
-                    <span></span>
-                </label>
-            </header>
+  <div class="container-all">
+    <div class="welcome" id="home">
+      <button class="menu-button">
+          <svg class="hamburger" x="0px" y="0px"
+          viewBox="0 0 30 17" height="17" width="30" >
+            <g transform="translate(-15 -15)">
+              <rect x="15" y="16" class="st0" width="30" height="2"/>
+            </g>
+            <g transform="translate(-15 -9)">
+              <rect x="15" y="16" class="st0" width="30" height="2"/>
+            </g>
+            <g transform="translate(-15 -3)">
+              <rect x="15" y="16" class="st0" width="30" height="2"/>
+            </g>
+          </svg>
+          <svg class="close-icon" x="0px" y="0px"
+          viewBox="0 0 30 17" height="17" width="30">
+       <g transform="translate(-15 -15)">
+         <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 
+           35.8,16.5 37,17.7 	"/>
+       </g>
+       </svg>      
+      </button>
 
-            <br>
-            <br>
-            <br>
-            <div>
-                <h2>Welcome to my Homepage</h2>
-            </div>
+      <h1>HTML and CSS<span>coding a website</span></h1>
+    </div>
 
-        </body>
+    <section class="intro">
+      <div class="intro-left">
+        <img src="img/geology.jpg" alt="a laptop on a wood table">
+      </div>
+      <div class="intro-middle">
+        <h2>Greg Schneider</h2>
+        <p>My first semester at BYU-Idaho I was a physics major with a geology emphasis. Then I decided to switch the two and became a Geology student with a physics minor. I took an  introductory GIS course and loved it, ultimately switching degrees again to focus on it.</p>
+      </div>
+      <div class="intro-right">
+        <img src="img/coding.jpg" alt="two computers and a laptop on a table">
+      </div>
+    </section>
+
+    <section class="about-me" id="about">
+      <img class="about-img" src="img/greg2.jpg" alt="A picture of Joe Portfolio">
+      <h1 class="about-title"></h1>
+      <h2 class="about-subtitle">Why Code a Website?</h2>
+      <div class="about-text">
+        <p>The Geospatial Computing degree at BYU-Idaho really feels like an Interdisciplinary Degree, but more focused and with a better name. As a student I have taken courses in geology, math, statistics, GIS, and programming. I've completed some very in-depth and rigorous projects in every subject except programming.</p>
+        <p>My goal with this project was to do apply the coding skills I'd learned from my courses thus far and to teach myself CSS, which I hadn't covered in any previous coursework. At my current job I have come in contact with it several times already and have not been able to perform the task at hand as well as I would like.</p>
+		<p>The true outcome of this website is not really the content seen on the webpages (although I did try and make it meaningful and applicable to anyone who may come across it), but the HTML and CSS code working behind the scenes. The code and the powerpoint presentation discussing it will be available on the Documents page for download.</p>
+	  </div>
+    </section>
+
+
+    <footer>
+      <p>Social Media Links</p>
+      <div class="social-icons">
+        <img class="social-icon" src="img/twitter-logo.svg" alt="twitter">
+        <img class="social-icon" src="img/facebook-logo.svg" alt="twitter">
+        <img class="social-icon" src="img/youtube.png" alt="twitter"> 
+		<img class="social-icon" src="img/linkedin-logo.svg" alt="twitter">  
+      </div>
+      
+      <p class="copyright"></p>
+    </footer>
+  </div>
+  <script src="js/nav.js"></script>
+  <script src="js/modal.js"></script>
+  
+</body> 
 </html>
