@@ -9,6 +9,7 @@ body {
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
+
 }
 
 img {
@@ -20,6 +21,7 @@ img {
 	width: 95%;
 	max-width: 70em;
 	margin: 0 auto;
+	text-align: center;
 }
 
 .clearfix::after,
@@ -155,19 +157,22 @@ p:last-of-type {
 }
 
 .button-accent {
-	color: #00ff6c;
-	border-color: #00ff6c;
+	color: white;
+	border-color: white;
+	background: #35563f;
 }
 
 .button-accent:hover,
 .button-accent:focus {
-	background: #00ff6c;
-	color: #232323;
+	background: #124f24;
+	color: black;
+	border-color: black;
 }
 
 .button-dark {
-	color: #232323;
-	border-color: #232323;
+	color: black;
+	border-color: black;
+	background: #35563f;
 }
 
 .button-dark:hover,
@@ -381,7 +386,7 @@ nav a:focus {
 =================== */
 
 .cta {
-	background-color: #00ff6c;
+	background-color: #35563f;
 	padding: 5em 0;
 }
 

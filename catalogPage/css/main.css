@@ -31,7 +31,7 @@ p {
 
 .section__subtitle {
   font-size: 1.69rem;
-  color: #a6d8b0;
+  color: #efefef;
   font-style: italic;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -128,7 +128,7 @@ nav a:hover {
   -ms-grid-column-span: 1;
   grid-column: 2 / 3;
   position: relative;
-  color: black;
+  color: white;
 }
 
 .intro__text::after {
